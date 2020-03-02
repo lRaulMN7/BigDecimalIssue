@@ -10,6 +10,9 @@ class FilterCommand implements Validateable {
     static constraints = {
         value(min: 1.00, blank: false)
         name(blank: false, nullable: false)
+        bookChosen validator: {
+            if (it.name == "Best Book") return false
+        }
     }
 }
 
