@@ -13,11 +13,11 @@
 
 <body>
     <g:form action="index" controller="demo">
-        <input type="text" id="inputName" name="body.name">
+        <input type="text" id="inputName" name="name">
         <label for="inputName">Name</label>
         <br>
         <br>
-        <input type="number" step="0.01" id="inputBigDecimal" name="body.value">
+        <input type="number" step="0.01" id="inputBigDecimal" name="value">
         <label for="inputBigDecimal">Value</label>
 
         <button>Submit</button>
